@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif" ;
+}
+body{
+    overflow-x: hidden;
+}
+header {
+    height: 250px;
+    background-color: white;
+    width: 100%;
+}
+header .arriba a{
+    color: palevioletred;
+}
+header .arriba{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header nav{
+    width: 100%;
+    border: 1px solid rgb(202, 192, 192);
+    
+}
+header nav ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+header nav ul li{
+    list-style: none;
+    
+}
+.titulos_accesorios div {
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulos_accesorios div h3{
+    color: aliceblue;
+}
+.titulo{
+    background-image: url(IMG/pendulodoblepunta.png.png);
+}
+.titulo2{
+    background-image: url(IMG/collarescuarzocorazón.png.jpg);
+}
+.titulo3{
+    background-image: url(IMG/collarcuarzoentorchado.png.jpg);
+}
+.titulo4{
+    background-image: url(IMG/cuarzoredondorosa.png.jpg);
+}
+.titulo5{
+    background-image: url(IMG/manillaamatista.png.jpg);
+}
+.titulo6{
+    background-image: url(IMG/manillasignos.png.jpg);
+}
+.titulo7{
+    background-image: url(IMG/nombre.png.jpg);
+}
+.titulo8{
+    background-image: url(IMG/sietechakras.png.jpg);
+}
+.titulo9{
+    background-image: url(IMG/ojoturco.png.jpg);
+}
+.titulo10{
+    background-image: url(IMG/aretes.png.jpg);
+}
+.titulo11{
+    background-image: url(IMG/anillos.png.jpg);
+}
+
