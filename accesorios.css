@@ -22,6 +22,14 @@ header .arriba{
     align-items: center;
     
 }
+header .arriba .soffcrystals{
+    font-size: 60px;
+    text-decoration: none;
+}
+header .arriba .soffcrystals:hover{
+    color: rgb(202, 152, 169);
+
+}
 
 header nav{
     width: 100%;
@@ -29,21 +37,30 @@ header nav{
     
 }
 header nav ul{
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: black;
 }
 header nav ul li{
     list-style: none;
     
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+header nav ul li a:hover {
+    color: palevioletred
+   
 }
 .titulos_accesorios div {
     width: 180px;
     height: 180px;
     background-position: center;
     background-size: cover;
+    margin: 20px;
 }
 
 .titulos_accesorios div h3{
