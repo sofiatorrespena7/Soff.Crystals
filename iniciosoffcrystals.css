@@ -2,15 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "sans-serif" ;
+    font-family: "sans-serif";
 }
 body{
     overflow-x: hidden;
+    background-color: #f0d6de;
 }
 header {
-    height: 250px;
+    height: fit-content;
     background-color: white;
     width: 100%;
+    position: sticky; /*FALTA LOS DEMAS */
+    top: 0;
 }
 header .arriba a{
     color: palevioletred;
@@ -20,11 +23,12 @@ header .arriba{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 header .arriba .soffcrystals{
     font-size: 60px;
     text-decoration: none;
+    margin-right: 300px;
+    /* AGREGAR A LOS DEMAS CSS */
 }
 header .arriba .soffcrystals:hover{
     color: rgb(202, 152, 169);
@@ -34,7 +38,6 @@ header .arriba .soffcrystals:hover{
 header nav{
     width: 100%;
     border: 1px solid rgb(202, 192, 192);
-    
 }
 header nav ul{
     height: 50px;
@@ -58,9 +61,8 @@ header nav ul li a:hover {
 
 header .logo {
     display: flex;
-    justify-content: center 
+    justify-content: center;
     /* FALTA CENTRAR LOGO */
-
 }
 .iconos {
     display: flex;
@@ -71,4 +73,54 @@ header .logo {
 }
 section {
     margin: 20px;
+    background-color: white; /*FALTA LOS DEMAS */
+}
+section > div {
+    margin: 30px;
+}
+.primertexto >div{
+    width: 50%;
+}
+.primertexto {
+    display: flex;
+}
+div .ladoderecho {
+    justify-content: right;
+    margin-left: 300px;
+}
+div .ladoizquierdo .texto p{
+    text-align: justify;
+    /* CODIGO ARRIBA PARA JUSTIFICAR */
+}
+div .titulo1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div .titulo1 h1{
+    margin-bottom: 20px;
+    font-size: 50px
+    /* CAMBIAR TIPO DE LETRA */
+}
+.titulo3 h1 {
+    margin-top: 20px;
+}
+.titulo4 h1 {
+    margin-top: 20px;
+}
+.titulo4 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+.titulo5 h1 {
+    margin-top: 20px;
+}
+.titulo5 p{
+    margin-top: 10px;
+}
+.titulo6 h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.titulo7 p{
+    margin-top: 10px;
 }
