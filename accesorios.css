@@ -74,6 +74,14 @@ header .logo {
 section {
     margin: 20px;
 }
+.titulos_accesorios a{
+    text-decoration: none;
+}
+.titulos_accesorios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .titulos_accesorios div {
     width: 180px;
     height: 180px;

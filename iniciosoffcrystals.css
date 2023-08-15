@@ -71,6 +71,49 @@ header .logo {
 .iconos div{
     margin-left: 20px;
 }
+.carrusel{
+    width: 95%;
+    height: 500px;
+    margin-left: -20px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    animation: cambioImagen 15s infinite ease-in;
+}
+@keyframes cambioImagen{
+    0%{
+        background-image: url(IMG/slider/anilloscuarzo.jpg);
+    }15%{
+        background-image: url(IMG/slider/anilloscuarzo.jpg);
+    }
+
+    20%{
+        background-image: url(IMG/slider/aretesamatista.jpg);
+    }35%{
+        background-image: url(IMG/slider/aretesamatista.jpg);
+    }
+
+    40%{
+        background-image: url(IMG/slider/cuarzosentorchados.jpg);
+    }55%{
+        background-image: url(IMG/slider/cuarzosentorchados.jpg );
+    }
+    60%{
+        background-image: url(IMG/slider/ojoturcorojo.jpg);
+    }75%{
+        background-image: url(IMG/slider/ojoturcorojo.jpg);
+    }
+    80%{
+        background-image: url(IMG/slider/sodalitapulsera.jpg);
+    }95%{
+        background-image: url(IMG/slider/sodalitapulsera.jpg);
+    }
+
+    100%{
+        background-image: url(IMG/slider/anilloscuarzo.jpg);
+    }
+}
 section {
     margin: 20px;
     background-color: white; /*FALTA LOS DEMAS */
@@ -120,7 +163,9 @@ div .titulo1 h1{
 .titulo6 h1{
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 .titulo7 p{
     margin-top: 10px;
 }
+

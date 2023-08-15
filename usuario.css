@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif" ;
+}
+body{
+    overflow-x: hidden;
+    background-color: #f0d6de;
+}
+header {
+    height: fit-content;
+    background-color: white;
+    width: 100%;
+    position: sticky; /*FALTA LOS DEMAS */
+    top: 0;
+}
+header .arriba a{
+    color: palevioletred;
+}
+header .arriba{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .arriba .soffcrystals{
+    font-size: 60px;
+    text-decoration: none;
+    margin-right: 300px;
+    /* AGREGAR A LOS DEMAS CSS */
+}
+header .arriba .soffcrystals:hover{
+    color: rgb(202, 152, 169);
+
+}
+
+header nav{
+    width: 100%;
+    border: 1px solid rgb(202, 192, 192);
+}
+header nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none; 
+    transition: 0.2s;
+}
+header nav ul li a:hover {
+    font-size: 18px;
+    color: palevioletred
+    
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    /* FALTA CENTRAR LOGO */
+}
+.iconos {
+    display: flex;
+   
+}
+.iconos div{
+    margin-left: 20px;
+}
+body {
+    background-color: #ffffff;
+    
+}
+.caja-formulario{
+    width: 400px;
+    height: fit-content;
+    background-color: #df9595;
+    padding: 12px;
+    margin: 8% auto;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja-formulario h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 8px darkgray;
+    letter-spacing: 1.5px;
+    font-size: 38px;
+    margin-bottom: 12px;
+
+}
+.caja-formulario a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 6px 0;
+    transition: 1s color;
+}
+.caja-formulario a:hover{
+    color: white;
+}
+.caja-formulario form{
+    width: 80%;
+    
+    display:flex ;
+    flex-direction: column;
+}
+.caja-formulario form label {
+    color: white;
+    margin: 8px 0;
+}
+.caja-formulario form input[type= "text"],
+.caja-formulario form input[type= "password"]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 40px;
+    transition: 1s;
+}
+.caja-formulario form input[type= "text"]::placeholder,
+.caja-formulario form input[type= "password"]::placeholder{
+    color: black;
+}
+.caja-formulario form input[type="submit"]{
+    width: 200px;
+    margin: 12px auto;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+.caja-formulario form input[type="submit"]:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+.caja-formulario form input[type="submit"]:active{
+    background-color: white;
+}
