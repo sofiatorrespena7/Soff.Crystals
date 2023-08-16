@@ -72,9 +72,13 @@ header .logo {
     margin-left: 20px;
 }
 body {
-    background-color: #ffffff;
+    background-color: #f0d6de;
     
 }
+section {
+    margin: 20px;
+    background-color: white;}
+
 .caja-formulario{
     width: 400px;
     height: fit-content;

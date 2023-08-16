@@ -52,9 +52,11 @@ header nav ul li{
 header nav ul li a{
     color: black;
     text-decoration: none;
+    transition: 0.2s;
 
 }
 header nav ul li a:hover {
+    font-size: 18px;
     color: palevioletred
    
 }
@@ -95,12 +97,27 @@ section {
 }
 .titulo{
     background-image: url(IMG/pendulodoblepunta.png.png);
+    transition: 0.8s;
+}
+.titulo:hover{
+    animation: zoom_imagen 1s forwards ease-in;
+    
+ } /*FALTA HACER ZOOM DEMAS IMAGENES Y REVISAR OPACIDAD */
+@keyframes zoom_imagen{
+    0%{
+        background-size: 100%;
+    }50%{
+        background-size: 105%;
+
+    }100%{
+        background-size: 110%;
+    }
 }
 .titulo2{
     background-image: url(IMG/collarescuarzocorazón.png.jpg);
 }
 .titulo3{
-    background-image: url(IMG/collarcuarzoentorchado.png.jpg);
+    background-image: url(IMG/entorchados.jpg);
 }
 .titulo4{
     background-image: url(IMG/cuarzoredondorosa.png.jpg);
