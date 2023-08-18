@@ -90,6 +90,8 @@ section {
     background-position: center;
     background-size: cover;
     margin: 20px; 
+    /* background: rgba(0, 0, 0, 0.61);
+    background-blend-mode: soft-light; */ 
  } /*PONER A LOS DEMAS EL MARGIN */
 
 .titulos_accesorios div h3{
