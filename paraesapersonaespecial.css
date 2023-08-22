@@ -6,6 +6,7 @@
  } /*COLOCAR MARGEN A TODOS */
  body{
     overflow-x: hidden;
+    background-color: #f0d6de;
 }
 header {
     height: fit-content;
@@ -72,3 +73,74 @@ header .logo {
 .iconos div{
     margin-left: 20px;
 }
+section {
+    margin: 20px;
+}
+.titulos_personaespecial a{
+    text-decoration: none;
+}
+.titulos_personaespecial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulos_personaespecial div {
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    margin: 20px; 
+    /* background: rgba(0, 0, 0, 0.61);
+    background-blend-mode: soft-light; */ 
+ } /*PONER A LOS DEMAS EL MARGIN */
+
+.titulos_personaespecial div h3{
+    color: aliceblue;
+}
+.titulo{
+    background-image: url(IMG/paraesapersonaespecial/hilorojo.jpg);
+    transition: 0.5s;
+}
+.titulos_personaespecial div:hover{
+    animation: zoom_imagen 1s forwards ease-in;
+    
+ } /*FALTA HACER ZOOM DEMAS IMAGENES Y REVISAR OPACIDAD */
+@keyframes zoom_imagen{
+    0%{
+        background-size: 100%;
+    }50%{
+        background-size: 105%;
+
+    }100%{
+        background-size: 110%;
+    }
+}
+.titulo2{
+    background-image: url(IMG/paraesapersonaespecial/onixycuarzorosa.jpg)
+}
+.titulo3{
+    background-image: url(IMG/paraesapersonaespecial/dijecorazon.jpg);
+}
+.titulo4{
+    background-image: url(IMG/paraesapersonaespecial/mamaehijarojo.jpg);
+}
+.titulo5{
+    background-image: url(IMG/paraesapersonaespecial/papaehija.jpg);
+}
+.titulo6{
+    background-image: url(IMG/paraesapersonaespecial/hermanas.jpg);
+}
+.titulo7{
+    background-image: url(IMG/paraesapersonaespecial/hermanos.jpg);
+}
+.titulo8{
+    background-image: url(IMG/paraesapersonaespecial/amigasdoble.jpg);
+}
+.titulo9{
+    background-image: url(IMG/paraesapersonaespecial/amigas.jpg);
+}
+.titulo10{
+    background-image: url(IMG/paraesapersonaespecial/amigos.jpg);
+}
+
+

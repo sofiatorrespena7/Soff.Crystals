@@ -99,9 +99,9 @@ section {
 }
 .titulo{
     background-image: url(IMG/pendulodoblepunta.png.png);
-    transition: 0.8s;
+    transition: 0.5s;
 }
-.titulo:hover{
+.titulos_accesorios div:hover{
     animation: zoom_imagen 1s forwards ease-in;
     
  } /*FALTA HACER ZOOM DEMAS IMAGENES Y REVISAR OPACIDAD */
@@ -137,12 +137,15 @@ section {
     background-image: url(IMG/sietechakras.png.jpg);
 }
 .titulo9{
-    background-image: url(IMG/ojoturco.png.jpg);
+    background-image: url(IMG/tresdeseos.jpg);
 }
 .titulo10{
-    background-image: url(IMG/aretes.png.jpg);
+    background-image: url(IMG/ojoturco.png.jpg);
 }
 .titulo11{
+    background-image: url(IMG/aretes.png.jpg);
+}
+.titulo12{
     background-image: url(IMG/anillos.png.jpg);
 }
 
