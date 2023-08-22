@@ -90,9 +90,9 @@ section {
     background-position: center;
     background-size: cover;
     margin: 20px; 
-    /* background: rgba(0, 0, 0, 0.61);
-    background-blend-mode: soft-light; */ 
- } /*PONER A LOS DEMAS EL MARGIN */
+    background-color: rgba(0, 0, 0, 0.0);
+    background-blend-mode: soft-light;
+} /*PONER A LOS DEMAS EL MARGIN */
 
 .titulos_accesorios div h3{
     color: aliceblue;
@@ -101,7 +101,8 @@ section {
     background-image: url(IMG/pendulodoblepunta.png.png);
     transition: 0.8s;
 }
-.titulo:hover{
+.titulos_accesorios div:hover{
+    background-color: rgba(0, 0, 0, 0.3);
     animation: zoom_imagen 1s forwards ease-in;
     
  } /*FALTA HACER ZOOM DEMAS IMAGENES Y REVISAR OPACIDAD */
