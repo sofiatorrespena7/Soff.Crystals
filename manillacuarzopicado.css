@@ -37,7 +37,6 @@ header .arriba .soffcrystals:hover{
 header nav{
     width: 100%;
     border: 1px solid rgb(202, 192, 192);
-    
 }
 header nav ul{
     height: 50px;
@@ -76,15 +75,15 @@ header .logo {
 section {
     margin: 20px;
 }
-.titulos_accesorios a{
+.titulos_manillas a{
     text-decoration: none;
 }
-.titulos_accesorios{
+.titulos_manillas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.titulos_accesorios div {
+.titulos_manillas div {
     width: 180px;
     height: 180px;
     background-position: center;
@@ -94,21 +93,21 @@ section {
     background-blend-mode: soft-light;
 } /*PONER A LOS DEMAS EL MARGIN */
 
-.titulos_accesorios div h3{
+.titulos_manillas div h3{
     color: aliceblue;
     text-align: center;
 }
 
-.titulos_accesorios div{
+.titulos_manillas div{
     display: flex;
     justify-content: center;
     align-items: start;
 }
 .titulo{
-    background-image: url(IMG/pendulodoblepunta.png.png);
+    background-image: url(IMG/manillaamatista.png.jpg);
     transition: 0.5s;
 }
-.titulos_accesorios div:hover{
+.titulos_manillas div:hover{
     background-color: rgba(0, 0, 0, 0.3);
     animation: zoom_imagen 1s forwards ease-in;
     
@@ -124,36 +123,38 @@ section {
     }
 }
 .titulo2{
-    background-image: url(IMG/collarescuarzocorazón.png.jpg);
+    background-image: url(IMG/Manillastejidas/CITRINO.jpg);
 }
 .titulo3{
-    background-image: url(IMG/entorchados.jpg);
+    background-image: url(IMG/Manillastejidas/CORNALINA.jpg);
 }
 .titulo4{
-    background-image: url(IMG/cuarzoredondorosa.png.jpg);
+    background-image: url(IMG/Manillastejidas/CUARZOCRISTAL.jpg);
 }
 .titulo5{
-    background-image: url(IMG/manillaamatista.png.jpg);
+    background-image: url(IMG/Manillastejidas/CUARZOROSA.jpg);
 }
 .titulo6{
-    background-image: url(IMG/manillasignos.png.jpg);
+    background-image: url(IMG/Manillastejidas/JADE.jpg);
 }
 .titulo7{
-    background-image: url(IMG/nombre.png.jpg);
+    background-image: url(IMG/Manillastejidas/JASPEUNAKITA.jpg);
 }
 .titulo8{
-    background-image: url(IMG/sietechakras.png.jpg);
+    background-image: url(IMG/Manillastejidas/OJODETIGRE.jpg);
 }
 .titulo9{
-    background-image: url(IMG/tresdeseos.jpg);
+    background-image: url(IMG/Manillastejidas/OBSIDIANA.jpg);
 }
 .titulo10{
-    background-image: url(IMG/ojoturco.png.jpg);
+    background-image: url(IMG/Manillastejidas/ONIX.jpg);
 }
 .titulo11{
-    background-image: url(IMG/aretes.png.jpg);
+    background-image: url(IMG/Manillastejidas/OPALOROSA.jpg);
 }
 .titulo12{
-    background-image: url(IMG/anillos.png.jpg);
+    background-image: url(IMG/Manillastejidas/SODALITA.jpg);
 }
-
+.titulo13{
+    background-image: url(IMG/Manillastejidas/TURQUESA.jpg);
+}

@@ -38,7 +38,6 @@ header .arriba .soffcrystals:hover{
 header nav{
     width: 100%;
     border: 1px solid rgb(202, 192, 192);
-    
 }
 header nav ul{
     height: 50px;
@@ -90,18 +89,24 @@ section {
     background-position: center;
     background-size: cover;
     margin: 20px; 
-    /* background: rgba(0, 0, 0, 0.61);
-    background-blend-mode: soft-light; */ 
+    background-color: rgba(0, 0, 0, 0.0);
+    background-blend-mode: soft-light;
  } /*PONER A LOS DEMAS EL MARGIN */
 
 .titulos_personaespecial div h3{
     color: aliceblue;
+}
+.titulos_personaespecial div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .titulo{
     background-image: url(IMG/paraesapersonaespecial/hilorojo.jpg);
     transition: 0.5s;
 }
 .titulos_personaespecial div:hover{
+    background-color: rgba(0, 0, 0, 0.3);
     animation: zoom_imagen 1s forwards ease-in;
     
  } /*FALTA HACER ZOOM DEMAS IMAGENES Y REVISAR OPACIDAD */
