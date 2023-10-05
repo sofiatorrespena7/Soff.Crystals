@@ -72,13 +72,43 @@ header .logo {
 .iconos div{
     margin-left: 20px;
 }
-section {
-    margin: 20px;
-}
+
 section {
     margin: 20px;
     background-color: white; /*FALTA LOS DEMAS */
+    display: flex;
+    flex-direction: row-reverse;
 }
 section > div {
     margin: 30px;
+}
+.lado_derecho {
+    justify-content: right;
+    /* margin-left: 600px; */
+    padding-top: 20px;
+}
+
+.titulo_manilla {
+    font-size:xx-large;
+}
+.precio {
+    font-size: larger;
+}
+.lado_izquierdo {
+    justify-content: left;
+    margin-left: 18px;
+    display: flex;
+    align-items: flex-start;
+}
+.lado_izquierdo{
+    padding-top: 20px;
+}
+.lado_derecho form input[type="submit"]{
+    width: 200px;
+    margin: 12px auto;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: palevioletred;
+    border: none;
+    color: black;
 }
